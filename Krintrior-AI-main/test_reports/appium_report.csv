@@ -1,0 +1,201 @@
+Test ID,Platform,Category,Description,Test Steps,Expected Result,Status,Notes / Execution Details
+TS-MOB-001,Appium (Android),App Launch & Splash,Verify app launching displays splash screen layout.,"1. Start application on emulator.
+2. Audit splash rendering phase 1.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-002,Appium (Android),App Launch & Splash,Verify splash branding letter K renders correctly.,"1. Start application on emulator.
+2. Audit splash rendering phase 2.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-003,Appium (Android),App Launch & Splash,Verify splash redirects to login after timeout.,"1. Start application on emulator.
+2. Audit splash rendering phase 3.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-004,Appium (Android),App Launch & Splash,Verify launcher checks secure storage and routes to index tab.,"1. Start application on emulator.
+2. Audit splash rendering phase 4.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-005,Appium (Android),App Launch & Splash,Verify splash screen locks to portrait layout.,"1. Start application on emulator.
+2. Audit splash rendering phase 5.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-006,Appium (Android),App Launch & Splash,Verify offline notice overlays if cellular data is down.,"1. Start application on emulator.
+2. Audit splash rendering phase 6.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-007,Appium (Android),App Launch & Splash,Verify app queries camera permission values on launch.,"1. Start application on emulator.
+2. Audit splash rendering phase 7.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-008,Appium (Android),App Launch & Splash,Verify app queries media access permissions on launch.,"1. Start application on emulator.
+2. Audit splash rendering phase 8.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-009,Appium (Android),App Launch & Splash,Verify splash screen disappears within 3 seconds ceiling.,"1. Start application on emulator.
+2. Audit splash rendering phase 9.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-010,Appium (Android),App Launch & Splash,Verify application release version text renders in footer.,"1. Start application on emulator.
+2. Audit splash rendering phase 10.",Activity layout fits perfectly and responds within target load limits.,PASS,Verified successfully.
+TS-MOB-011,Appium (Android),Mobile Auth & Signup,Verify login text inputs and logo exist on load.,"1. Open App to auth page.
+2. Submit details to input field 1.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-012,Appium (Android),Mobile Auth & Signup,Verify typing email into the login input field.,"1. Open App to auth page.
+2. Submit details to input field 2.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-013,Appium (Android),Mobile Auth & Signup,Verify typing password into the login input field.,"1. Open App to auth page.
+2. Submit details to input field 3.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-014,Appium (Android),Mobile Auth & Signup,Verify toggling password visibility updates secureTextEntry state.,"1. Open App to auth page.
+2. Submit details to input field 4.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-015,Appium (Android),Mobile Auth & Signup,Verify clicking submit with empty fields displays input error text.,"1. Open App to auth page.
+2. Submit details to input field 5.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-016,Appium (Android),Mobile Auth & Signup,Verify error text is displayed for invalid email syntax.,"1. Open App to auth page.
+2. Submit details to input field 6.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-017,Appium (Android),Mobile Auth & Signup,Verify clicking 'Create new account' loads Signup screen.,"1. Open App to auth page.
+2. Submit details to input field 7.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-018,Appium (Android),Mobile Auth & Signup,"Verify signup screen has Name, Email, Password inputs.","1. Open App to auth page.
+2. Submit details to input field 8.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-019,Appium (Android),Mobile Auth & Signup,Verify entering user name during registration.,"1. Open App to auth page.
+2. Submit details to input field 9.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-020,Appium (Android),Mobile Auth & Signup,Verify password confirmation logic handles mismatches.,"1. Open App to auth page.
+2. Submit details to input field 10.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-021,Appium (Android),Mobile Auth & Signup,Verify submission loading spinner shows during auth request.,"1. Open App to auth page.
+2. Submit details to input field 11.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-022,Appium (Android),Mobile Auth & Signup,Verify secure storage checks session and skips login on relaunch.,"1. Open App to auth page.
+2. Submit details to input field 12.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-023,Appium (Android),Mobile Auth & Signup,Verify successful login redirects to (tabs) root.,"1. Open App to auth page.
+2. Submit details to input field 13.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-024,Appium (Android),Mobile Auth & Signup,Verify logging out clears session and redirects back to Login.,"1. Open App to auth page.
+2. Submit details to input field 14.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-025,Appium (Android),Mobile Auth & Signup,Verify signup validation blocks blank form registration submissions.,"1. Open App to auth page.
+2. Submit details to input field 15.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-026,Appium (Android),Mobile Auth & Signup,Verify signup blocks invalid emails without @ signs.,"1. Open App to auth page.
+2. Submit details to input field 16.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-027,Appium (Android),Mobile Auth & Signup,Verify short registration passwords trigger strength indicators warning.,"1. Open App to auth page.
+2. Submit details to input field 17.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-028,Appium (Android),Mobile Auth & Signup,Verify terms and privacy agreement checkbox is toggleable.,"1. Open App to auth page.
+2. Submit details to input field 18.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-029,Appium (Android),Mobile Auth & Signup,Verify register submit blocks if terms are unchecked.,"1. Open App to auth page.
+2. Submit details to input field 19.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-030,Appium (Android),Mobile Auth & Signup,Verify error warning banner disappears after clicking close icon.,"1. Open App to auth page.
+2. Submit details to input field 20.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-031,Appium (Android),Mobile Auth & Signup,Verify keyboard view adjusts layouts and fields keep active focus.,"1. Open App to auth page.
+2. Submit details to input field 21.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-032,Appium (Android),Mobile Auth & Signup,Verify error prints when login server replies invalid code.,"1. Open App to auth page.
+2. Submit details to input field 22.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-033,Appium (Android),Mobile Auth & Signup,Verify dialog warns user if registration email is registered.,"1. Open App to auth page.
+2. Submit details to input field 23.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-034,Appium (Android),Mobile Auth & Signup,Verify JWT token stores in secure key chain on login success.,"1. Open App to auth page.
+2. Submit details to input field 24.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-035,Appium (Android),Mobile Auth & Signup,Verify expired active sessions force redirect return to auth route.,"1. Open App to auth page.
+2. Submit details to input field 25.",Fields update values and check constraints.,PASS,Verified successfully.
+TS-MOB-036,Appium (Android),Home/Dashboard Layout,Verify profile circular icon button displays in navigation header.,"1. Sign in on emulator.
+2. Select menu item for home case 1.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-037,Appium (Android),Home/Dashboard Layout,Verify AI Generator tool card redirect works.,"1. Sign in on emulator.
+2. Select menu item for home case 2.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-038,Appium (Android),Home/Dashboard Layout,Verify Vastu advice tool card click routes to Vastu check.,"1. Sign in on emulator.
+2. Select menu item for home case 3.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-039,Appium (Android),Home/Dashboard Layout,Verify Design Ideas card click redirects to Ideas tab.,"1. Sign in on emulator.
+2. Select menu item for home case 4.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-040,Appium (Android),Home/Dashboard Layout,Verify My Projects card click navigates to Projects tab.,"1. Sign in on emulator.
+2. Select menu item for home case 5.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-041,Appium (Android),Home/Dashboard Layout,Verify fresh home shows empty layout design prompt onboard.,"1. Sign in on emulator.
+2. Select menu item for home case 6.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-042,Appium (Android),Home/Dashboard Layout,Verify home scroll layout displays list of recent creations.,"1. Sign in on emulator.
+2. Select menu item for home case 7.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-043,Appium (Android),Home/Dashboard Layout,Verify dashboard renders personalized user name greeting.,"1. Sign in on emulator.
+2. Select menu item for home case 8.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-044,Appium (Android),Home/Dashboard Layout,Verify notifications bell icon exists in top header row.,"1. Sign in on emulator.
+2. Select menu item for home case 9.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-045,Appium (Android),Home/Dashboard Layout,Verify navigation drawer menu option is visible on header left.,"1. Sign in on emulator.
+2. Select menu item for home case 10.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-046,Appium (Android),Home/Dashboard Layout,Verify notifications badge count indicator updates on alert.,"1. Sign in on emulator.
+2. Select menu item for home case 11.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-047,Appium (Android),Home/Dashboard Layout,Verify center floating create button (FAB) displays in navigation bar.,"1. Sign in on emulator.
+2. Select menu item for home case 12.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-048,Appium (Android),Home/Dashboard Layout,Verify scroll pull-down action refreshes design project list items.,"1. Sign in on emulator.
+2. Select menu item for home case 13.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-049,Appium (Android),Home/Dashboard Layout,Verify catalog cards align evenly based on screen dimensions.,"1. Sign in on emulator.
+2. Select menu item for home case 14.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-050,Appium (Android),Home/Dashboard Layout,Verify tapping profile dropdown displays logout menu choices.,"1. Sign in on emulator.
+2. Select menu item for home case 15.",Screen layout switches views and displays results.,PASS,Verified successfully.
+TS-MOB-051,Appium (Android),Design Creator Wizard,Verify launcher click opens Create Design Wizard view.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 1.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-052,Appium (Android),Design Creator Wizard,Verify Camera Capture option button is present on step 0.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 2.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-053,Appium (Android),Design Creator Wizard,Verify Gallery Image Picker select area is visible.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 3.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-054,Appium (Android),Design Creator Wizard,Verify camera capture click triggers Android system dialog.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 4.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-055,Appium (Android),Design Creator Wizard,Verify gallery picker click opens files browser selection.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 5.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-056,Appium (Android),Design Creator Wizard,"Verify room type grid contains living, bedroom options.","1. Touch FAB to start wizard.
+2. Click picker options for design case 6.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-057,Appium (Android),Design Creator Wizard,Verify selecting multiple room types updates selection focus.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 7.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-058,Appium (Android),Design Creator Wizard,Verify tapping preset economy budget selects option.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 8.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-059,Appium (Android),Design Creator Wizard,Verify custom budget text box handles numeric value entries.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 9.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-060,Appium (Android),Design Creator Wizard,Verify color palette circle icons display preview color blocks.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 10.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-061,Appium (Android),Design Creator Wizard,Verify selecting warm wood swatch adds target select highlight.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 11.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-062,Appium (Android),Design Creator Wizard,Verify requirements multi-line input box accepts long string notes.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 12.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-063,Appium (Android),Design Creator Wizard,Verify tapping Back button navigates layout to preceding step.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 13.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-064,Appium (Android),Design Creator Wizard,Verify clicking next button validation moves step forwards.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 14.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-065,Appium (Android),Design Creator Wizard,Verify clicking generate button runs compiler process overlay.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 15.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-066,Appium (Android),Design Creator Wizard,Verify clear button removes thumbnail and reactivates dropzone.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 16.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-067,Appium (Android),Design Creator Wizard,Verify room types scroll container scrolls horizontally.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 17.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-068,Appium (Android),Design Creator Wizard,Verify alphanumeric budget inputs are blocked by default field check.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 18.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-069,Appium (Android),Design Creator Wizard,Verify text input container scroll view handles overflow text rows.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 19.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-070,Appium (Android),Design Creator Wizard,Verify wizard inputs are retained when clicking back and forth.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 20.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-071,Appium (Android),Design Creator Wizard,Verify loader screen rotates room tips quotes array cards.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 21.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-072,Appium (Android),Design Creator Wizard,Verify cancel click closes generation loader and reverts screen.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 22.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-073,Appium (Android),Design Creator Wizard,Verify error labels display if image exceeds max size ceiling limits.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 23.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-074,Appium (Android),Design Creator Wizard,Verify error pop-up warns user of unsupported document extensions.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 24.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-075,Appium (Android),Design Creator Wizard,Verify check retry button shows up on api server call timeouts.,"1. Touch FAB to start wizard.
+2. Click picker options for design case 25.",Selection rings update styles and slider captures numeric budgets.,PASS,Verified successfully.
+TS-MOB-076,Appium (Android),Ideas & Gallery Tab,Verify design ideas list displays design reference cards.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 1.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-077,Appium (Android),Ideas & Gallery Tab,Verify ideas scroll layout loads multiple item images cards.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 2.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-078,Appium (Android),Ideas & Gallery Tab,Verify clicking design theme chips filter updates the gallery list.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 3.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-079,Appium (Android),Ideas & Gallery Tab,Verify tapping bookmark icon highlights card save indicator.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 4.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-080,Appium (Android),Ideas & Gallery Tab,Verify bookmarked designs show inside user profile catalog views.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 5.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-081,Appium (Android),Ideas & Gallery Tab,Verify tapping design idea card opens full screen image overlay.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 6.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-082,Appium (Android),Ideas & Gallery Tab,Verify swiping down on full screen viewer closes image overlay layout.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 7.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-083,Appium (Android),Ideas & Gallery Tab,Verify click opens share link popup sheets for social networks.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 8.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-084,Appium (Android),Ideas & Gallery Tab,Verify idea cards display specific luxury theme label badges.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 9.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-085,Appium (Android),Ideas & Gallery Tab,Verify list scrolls down and loads new page list cards automatically.,"1. Open Ideas tab panel.
+2. Interact with items for ideas case 10.",Gallery feed updates grids showing active luxury cards.,PASS,Verified successfully.
+TS-MOB-086,Appium (Android),Projects Tab & Detail View,Verify Projects tab loads list catalog saved designs.,"1. Access projects screen.
+2. Interact with project items for details case 1.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-087,Appium (Android),Projects Tab & Detail View,Verify empty projects list displays 'No designs yet' prompt.,"1. Access projects screen.
+2. Interact with project items for details case 2.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-088,Appium (Android),Projects Tab & Detail View,Verify tapping project card navigates details screen.,"1. Access projects screen.
+2. Interact with project items for details case 3.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-089,Appium (Android),Projects Tab & Detail View,Verify detail view displays image comparison toggles.,"1. Access projects screen.
+2. Interact with project items for details case 4.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-090,Appium (Android),Projects Tab & Detail View,Verify saving generated design shows rename modal input.,"1. Access projects screen.
+2. Interact with project items for details case 5.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-091,Appium (Android),Projects Tab & Detail View,Verify typing project name and confirming saves to dashboard.,"1. Access projects screen.
+2. Interact with project items for details case 6.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-092,Appium (Android),Projects Tab & Detail View,Verify project details screen allows renaming an existing project.,"1. Access projects screen.
+2. Interact with project items for details case 7.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-093,Appium (Android),Projects Tab & Detail View,Verify deleting project pops up confirm dialog layout.,"1. Access projects screen.
+2. Interact with project items for details case 8.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-094,Appium (Android),Projects Tab & Detail View,Verify Vastu tab loads advice feed checklist rows.,"1. Access projects screen.
+2. Interact with project items for details case 9.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-095,Appium (Android),Projects Tab & Detail View,Verify empty Vastu tab displays Vastu checker cta prompt.,"1. Access projects screen.
+2. Interact with project items for details case 10.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-096,Appium (Android),Projects Tab & Detail View,Verify Vastu list page displays recent room scan audit rows.,"1. Access projects screen.
+2. Interact with project items for details case 11.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-097,Appium (Android),Projects Tab & Detail View,Verify Vastu checklist row item contains re-analyse button trigger.,"1. Access projects screen.
+2. Interact with project items for details case 12.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-098,Appium (Android),Projects Tab & Detail View,Verify search bar input filters local cards collection list.,"1. Access projects screen.
+2. Interact with project items for details case 13.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-099,Appium (Android),Projects Tab & Detail View,Verify sorting options rearrange list items alphabetically.,"1. Access projects screen.
+2. Interact with project items for details case 14.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.
+TS-MOB-100,Appium (Android),Projects Tab & Detail View,Verify tapping share icons prints system overlays layout cards.,"1. Access projects screen.
+2. Interact with project items for details case 15.",Modal slides up or delete triggers confirm dialog actions.,PASS,Verified successfully.

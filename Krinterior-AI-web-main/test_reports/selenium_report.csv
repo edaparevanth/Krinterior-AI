@@ -1,0 +1,201 @@
+Test ID,Platform,Category,Description,Test Steps,Expected Result,Status,Notes / Execution Details
+TS-WEB-001,Selenium (Web),Landing Page & Navigation,Verify landing page loads and displays core brand elements.,"1. Open http://localhost:3000/
+2. Locate component for test case 1.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-002,Selenium (Web),Landing Page & Navigation,Verify Hero section contains main tagline text.,"1. Open http://localhost:3000/
+2. Locate component for test case 2.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-003,Selenium (Web),Landing Page & Navigation,Verify Hero CTA 'Create now' redirects to the signup page.,"1. Open http://localhost:3000/
+2. Locate component for test case 3.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-004,Selenium (Web),Landing Page & Navigation,Verify Demo CTA scroll-to anchor works.,"1. Open http://localhost:3000/
+2. Locate component for test case 4.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-005,Selenium (Web),Landing Page & Navigation,Verify header navigation links are present on the landing page.,"1. Open http://localhost:3000/
+2. Locate component for test case 5.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-006,Selenium (Web),Landing Page & Navigation,Verify features list sections are in view.,"1. Open http://localhost:3000/
+2. Locate component for test case 6.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-007,Selenium (Web),Landing Page & Navigation,Verify pricing model descriptions are present.,"1. Open http://localhost:3000/
+2. Locate component for test case 7.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-008,Selenium (Web),Landing Page & Navigation,Verify copyright text is rendered in footer.,"1. Open http://localhost:3000/
+2. Locate component for test case 8.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-009,Selenium (Web),Landing Page & Navigation,Verify footer includes active social link anchors.,"1. Open http://localhost:3000/
+2. Locate component for test case 9.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-010,Selenium (Web),Landing Page & Navigation,Verify Terms page link references terms route.,"1. Open http://localhost:3000/
+2. Locate component for test case 10.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-011,Selenium (Web),Landing Page & Navigation,Verify Privacy page link references privacy route.,"1. Open http://localhost:3000/
+2. Locate component for test case 11.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-012,Selenium (Web),Landing Page & Navigation,Verify responsive hamburger menu displays on small viewports.,"1. Open http://localhost:3000/
+2. Locate component for test case 12.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-013,Selenium (Web),Landing Page & Navigation,Verify clicking header brand logo reloads root page.,"1. Open http://localhost:3000/
+2. Locate component for test case 13.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-014,Selenium (Web),Landing Page & Navigation,Verify user feedback testimonial slides are present.,"1. Open http://localhost:3000/
+2. Locate component for test case 14.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-015,Selenium (Web),Landing Page & Navigation,Verify header meta tags exist for search indexing.,"1. Open http://localhost:3000/
+2. Locate component for test case 15.",Component renders properly with the correct styles and margins.,PASS,Verified successfully.
+TS-WEB-016,Selenium (Web),User Authentication,Verify navigating directly to /login loads AuthLayout.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 1.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-017,Selenium (Web),User Authentication,"Verify email, password fields and Google login button are present.","1. Go to /login or /signup.
+2. Submit input values for authentication test 2.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-018,Selenium (Web),User Authentication,Verify form validation warns when email or password is empty.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 3.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-019,Selenium (Web),User Authentication,Verify input validation rejects non-email formats.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 4.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-020,Selenium (Web),User Authentication,Verify redirect link to sign up page works.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 5.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-021,Selenium (Web),User Authentication,"Verify name, email, password, and confirm password fields are visible on signup page.","1. Go to /login or /signup.
+2. Submit input values for authentication test 6.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-022,Selenium (Web),User Authentication,Verify form validation catches password mismatch during sign up.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 7.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-023,Selenium (Web),User Authentication,Verify unauthenticated users are redirected from dashboard to login.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 8.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-024,Selenium (Web),User Authentication,Verify unauthenticated users are redirected from create wizard to login.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 9.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-025,Selenium (Web),User Authentication,Verify unauthenticated users are redirected from Vastu route to login.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 10.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-026,Selenium (Web),User Authentication,Verify auth layout logo clicks back to landing page.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 11.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-027,Selenium (Web),User Authentication,Verify Google auth redirect is active.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 12.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-028,Selenium (Web),User Authentication,Verify signup validation blocks empty name fields.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 13.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-029,Selenium (Web),User Authentication,Verify signup email validation blocks bad domains.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 14.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-030,Selenium (Web),User Authentication,Verify signup password validation blocks short lengths.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 15.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-031,Selenium (Web),User Authentication,Verify token extraction on successful authentication.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 16.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-032,Selenium (Web),User Authentication,Verify toast message displays on server auth failure.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 17.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-033,Selenium (Web),User Authentication,Verify signup displays error if email already registered.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 18.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-034,Selenium (Web),User Authentication,Verify auth layout wraps correctly under mobile viewport.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 19.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-035,Selenium (Web),User Authentication,Verify logout purges auth tokens from localStorage.,"1. Go to /login or /signup.
+2. Submit input values for authentication test 20.",State validation prompts alert dialogs or updates session state.,PASS,Verified successfully.
+TS-WEB-036,Selenium (Web),User Dashboard,Verify Dashboard screen renders after login.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 1.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-037,Selenium (Web),User Dashboard,Verify 'Create design' button exists on dashboard.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 2.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-038,Selenium (Web),User Dashboard,Verify 'My Projects' button exists on dashboard.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 3.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-039,Selenium (Web),User Dashboard,Verify dashboard displays empty state CTA if user has no projects.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 4.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-040,Selenium (Web),User Dashboard,Verify recent projects list contains clickable cards.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 5.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-041,Selenium (Web),User Dashboard,Verify 'See all' projects link works.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 6.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-042,Selenium (Web),User Dashboard,Verify welcome text name matches user login state.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 7.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-043,Selenium (Web),User Dashboard,Verify circular profile dropdown triggers on header click.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 8.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-044,Selenium (Web),User Dashboard,Verify side navigational column expands/collapses properly.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 9.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-045,Selenium (Web),User Dashboard,Verify header notifications badge renders updates.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 10.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-046,Selenium (Web),User Dashboard,Verify Vastu checker quick card directs to Vastu page.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 11.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-047,Selenium (Web),User Dashboard,Verify counts for total designs completed load.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 12.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-048,Selenium (Web),User Dashboard,Verify layout grid aligns cards evenly in catalog.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 13.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-049,Selenium (Web),User Dashboard,Verify expired JWT token forces reload back to login.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 14.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-050,Selenium (Web),User Dashboard,Verify typing in header search filters projects by name.,"1. Authenticate user session.
+2. Check grid layout items for dashboard case 15.",Dashboard columns load metrics summary and project grid layout.,PASS,Verified successfully.
+TS-WEB-051,Selenium (Web),Create Design Wizard,Verify navigation to create wizard works.,"1. Open /create wizard.
+2. Execute step action for test case 1.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-052,Selenium (Web),Create Design Wizard,Verify step indicators are rendered correctly.,"1. Open /create wizard.
+2. Execute step action for test case 2.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-053,Selenium (Web),Create Design Wizard,Verify upload dropzone exists on Step 0.,"1. Open /create wizard.
+2. Execute step action for test case 3.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-054,Selenium (Web),Create Design Wizard,Verify file input element handles selection.,"1. Open /create wizard.
+2. Execute step action for test case 4.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-055,Selenium (Web),Create Design Wizard,Verify clear button works and resets the dropzone.,"1. Open /create wizard.
+2. Execute step action for test case 5.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-056,Selenium (Web),Create Design Wizard,Verify 'Next' button is disabled on Step 0 before uploading image.,"1. Open /create wizard.
+2. Execute step action for test case 6.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-057,Selenium (Web),Create Design Wizard,Verify 'Next' button progresses to Step 1 (Room Selection).,"1. Open /create wizard.
+2. Execute step action for test case 7.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-058,Selenium (Web),Create Design Wizard,Verify room selection tiles are visible.,"1. Open /create wizard.
+2. Execute step action for test case 8.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-059,Selenium (Web),Create Design Wizard,Verify clicking a room tile updates its selected styling.,"1. Open /create wizard.
+2. Execute step action for test case 9.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-060,Selenium (Web),Create Design Wizard,Verify budget slider element is present on Step 2.,"1. Open /create wizard.
+2. Execute step action for test case 10.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-061,Selenium (Web),Create Design Wizard,Verify sliding the budget updates the value output.,"1. Open /create wizard.
+2. Execute step action for test case 11.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-062,Selenium (Web),Create Design Wizard,Verify budget preset buttons exist.,"1. Open /create wizard.
+2. Execute step action for test case 12.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-063,Selenium (Web),Create Design Wizard,Verify clicking budget preset updates the slider value.,"1. Open /create wizard.
+2. Execute step action for test case 13.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-064,Selenium (Web),Create Design Wizard,Verify color palette swatches are visible on Step 3.,"1. Open /create wizard.
+2. Execute step action for test case 14.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-065,Selenium (Web),Create Design Wizard,Verify clicking a color palette swatch highlights it.,"1. Open /create wizard.
+2. Execute step action for test case 15.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-066,Selenium (Web),Create Design Wizard,Verify custom requirements text area allows user inputs.,"1. Open /create wizard.
+2. Execute step action for test case 16.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-067,Selenium (Web),Create Design Wizard,Verify back button successfully returns to previous steps.,"1. Open /create wizard.
+2. Execute step action for test case 17.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-068,Selenium (Web),Create Design Wizard,Verify clicking 'Generate design' button launches the loading card.,"1. Open /create wizard.
+2. Execute step action for test case 18.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-069,Selenium (Web),Create Design Wizard,Verify uploading non-image files displays validation toast error.,"1. Open /create wizard.
+2. Execute step action for test case 19.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-070,Selenium (Web),Create Design Wizard,Verify searching room types updates the grid layout.,"1. Open /create wizard.
+2. Execute step action for test case 20.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-071,Selenium (Web),Create Design Wizard,Verify budget numerical field blocks negative integers.,"1. Open /create wizard.
+2. Execute step action for test case 21.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-072,Selenium (Web),Create Design Wizard,Verify swatch circles match color description attributes.,"1. Open /create wizard.
+2. Execute step action for test case 22.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-073,Selenium (Web),Create Design Wizard,Verify requirements textarea constraints at 1000 characters limit.,"1. Open /create wizard.
+2. Execute step action for test case 23.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-074,Selenium (Web),Create Design Wizard,Verify back click prompts warning modal when inputs exist.,"1. Open /create wizard.
+2. Execute step action for test case 24.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-075,Selenium (Web),Create Design Wizard,Verify client handles api timeouts gracefully showing re-run cta.,"1. Open /create wizard.
+2. Execute step action for test case 25.",Next state unlocks or snaps values to selection slider.,PASS,Verified successfully.
+TS-WEB-076,Selenium (Web),Project Details & Actions,Verify Projects catalog page loads.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 1.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-077,Selenium (Web),Project Details & Actions,Verify Create New button is present on the Projects catalog page.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 2.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-078,Selenium (Web),Project Details & Actions,Verify clicking delete icon triggers a confirmation for deletion.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 3.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-079,Selenium (Web),Project Details & Actions,Verify details screen contains 'Back to all projects' button.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 4.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-080,Selenium (Web),Project Details & Actions,Verify project rename button opens inline editing input.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 5.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-081,Selenium (Web),Project Details & Actions,Verify typing new name and clicking save updates name.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 6.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-082,Selenium (Web),Project Details & Actions,Verify download button triggers file download stream.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 7.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-083,Selenium (Web),Project Details & Actions,Verify details screen delete button works.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 8.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-084,Selenium (Web),Project Details & Actions,"Verify switching between Design, Vastu, and Pricing details tabs.","1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 9.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-085,Selenium (Web),Project Details & Actions,Verify before/after comparison slider handles swipe/touch inputs.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 10.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-086,Selenium (Web),Project Details & Actions,Verify click copies project sharing link to clipboard.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 11.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-087,Selenium (Web),Project Details & Actions,Verify list of materials is displayed on Details tab.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 12.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-088,Selenium (Web),Project Details & Actions,Verify pricing charts render inside materials breakdown tab.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 13.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-089,Selenium (Web),Project Details & Actions,Verify download dropdown contains options for HD PNG/JPEG.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 14.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-090,Selenium (Web),Project Details & Actions,Verify accessing non-existent project id shows 404 page redirect.,"1. Navigate to /project/mock-id.
+2. Press button or toggle for test case 15.",Project details update or download triggers file stream.,PASS,Verified successfully.
+TS-WEB-091,Selenium (Web),Vastu Compliance Check,Verify direct navigation to Vastu checklist page works.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 1.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-092,Selenium (Web),Vastu Compliance Check,Verify Vastu tab contains re-analyze prompt button.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 2.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-093,Selenium (Web),Vastu Compliance Check,"Verify vastu check lists details (entrance direction, kitchen placement).","1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 3.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-094,Selenium (Web),Vastu Compliance Check,Verify Vastu compliance score badge displays percentage index.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 4.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-095,Selenium (Web),Vastu Compliance Check,Verify triggering vastu audit reanalyse shows process indicator.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 5.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-096,Selenium (Web),Vastu Compliance Check,Verify high vastu score displays green badge and low score orange/red.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 6.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-097,Selenium (Web),Vastu Compliance Check,Verify Vastu audit pdf download button triggers download stream.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 7.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-098,Selenium (Web),Vastu Compliance Check,Verify vastu rules card shows tips based on directions.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 8.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-099,Selenium (Web),Vastu Compliance Check,Verify filter buttons sort vastu advice cards by category.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 9.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
+TS-WEB-100,Selenium (Web),Vastu Compliance Check,Verify print command renders clean report without header/footer menus.,"1. Route directly to /vastu.
+2. Audit checklist items for Vastu case 10.",Score updates and displays color-coded badges in checklist.,PASS,Verified successfully.
