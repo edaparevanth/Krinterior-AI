@@ -42,9 +42,9 @@ export default function Login() {
       <Divider/>
 
       <form onSubmit={submit} style={{display:"grid", gap:14}}>
-        <Field icon={<Mail size={16}/>} placeholder="Email" type="email" value={email} onChange={setEmail} testId="email-input"/>
-        <Field icon={<Lock size={16}/>} placeholder="Password" type="password" value={password} onChange={setPassword} testId="password-input"/>
-        <button type="submit" disabled={loading} data-testid="login-submit-btn" className="btn-primary" style={{justifyContent:"center", padding:"14px"}}>
+        <Field icon={<Mail size={16}/>} placeholder="Email" type="email" value={email} onChange={setEmail} testId="login-email-input"/>
+        <Field icon={<Lock size={16}/>} placeholder="Password" type="password" value={password} onChange={setPassword} testId="login-password-input"/>
+        <button type="submit" disabled={loading} data-testid="login-submit-button" className="btn-primary" style={{justifyContent:"center", padding:"14px"}}>
           {loading ? <Loader2 size={16} className="spin-slow"/> : <>Sign in <ArrowRight size={16}/></>}
         </button>
       </form>

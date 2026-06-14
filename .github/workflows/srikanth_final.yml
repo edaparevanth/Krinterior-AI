@@ -1,0 +1,141 @@
+name: srikanth_final
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  selenium-e2e:
+    name: Selenium E2E
+    runs-on: ubuntu-latest
+    steps:
+      - name: Developer Push -> GitHub Repository
+        uses: actions/checkout@v4
+
+      - name: GitHub Actions Trigger -> Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Expo frontend dependencies
+        id: expo_install
+        continue-on-error: true
+        working-directory: Krintrior-AI-main/frontend
+        run: npm ci
+
+      - name: Build Expo frontend
+        id: expo_build
+        continue-on-error: true
+        working-directory: Krintrior-AI-main/frontend
+        run: npm run build
+
+      - name: Serve Expo frontend preview
+        id: expo_serve
+        if: always()
+        continue-on-error: true
+        working-directory: Krintrior-AI-main/frontend
+        run: |
+          mkdir -p gh-pages-preview/Krinterior-AI/app
+          cp -R dist/. gh-pages-preview/Krinterior-AI/app/ || true
+          npx serve gh-pages-preview --listen 8081 &
+          sleep 5
+
+      - name: Selenium E2E Testing -> Expo frontend
+        id: expo_e2e
+        if: always()
+        continue-on-error: true
+        working-directory: Krintrior-AI-main/frontend
+        env:
+          APP_BASE_URL: http://localhost:8081
+          LOGIN_PATH: /Krinterior-AI/app/login
+          E2E_EMAIL: ${{ secrets.E2E_EMAIL }}
+          E2E_PASSWORD: ${{ secrets.E2E_PASSWORD }}
+        run: npm run login
+
+      - name: Install web frontend dependencies
+        id: web_install
+        continue-on-error: true
+        working-directory: Krinterior-AI-web-main/frontend
+        run: npm ci --legacy-peer-deps
+
+      - name: Build web frontend
+        id: web_build
+        continue-on-error: true
+        working-directory: Krinterior-AI-web-main/frontend
+        run: npm run build
+
+      - name: Serve web frontend preview
+        id: web_serve
+        if: always()
+        continue-on-error: true
+        working-directory: Krinterior-AI-web-main/frontend
+        run: |
+          mkdir -p gh-pages-preview/Krinterior-AI/web
+          cp -R build/. gh-pages-preview/Krinterior-AI/web/ || true
+          npx serve gh-pages-preview --listen 8082 &
+          sleep 5
+
+      - name: Selenium E2E Testing -> Web frontend
+        id: web_e2e
+        if: always()
+        continue-on-error: true
+        working-directory: Krinterior-AI-web-main/frontend
+        env:
+          APP_BASE_URL: http://localhost:8082
+          LOGIN_PATH: /Krinterior-AI/web/#/login
+          E2E_EMAIL: ${{ secrets.E2E_EMAIL }}
+          E2E_PASSWORD: ${{ secrets.E2E_PASSWORD }}
+        run: npm run login
+
+      - name: Production Validation
+        id: production_validation
+        if: always()
+        continue-on-error: true
+        run: |
+          curl -L --fail --max-time 30 https://edaparevanth.github.io/Krinterior-AI/app/login
+          curl -L --fail --max-time 30 https://edaparevanth.github.io/Krinterior-AI/web/
+
+      - name: Pass / Fail Report
+        if: always()
+        run: |
+          mkdir -p e2e-report
+          cat > e2e-report/summary.md <<'REPORT'
+          # Selenium E2E Testing Report
+
+          Developer Push
+          ↓
+          GitHub Repository
+          ↓
+          GitHub Actions Trigger
+          ↓
+          Selenium E2E Testing
+          ↓
+          Production Validation
+          ↓
+          Pass / Fail Report
+
+          ## Results
+
+          | Stage | Outcome |
+          | --- | --- |
+          | Expo install | ${{ steps.expo_install.outcome }} |
+          | Expo build | ${{ steps.expo_build.outcome }} |
+          | Expo Selenium E2E | ${{ steps.expo_e2e.outcome }} |
+          | Web install | ${{ steps.web_install.outcome }} |
+          | Web build | ${{ steps.web_build.outcome }} |
+          | Web Selenium E2E | ${{ steps.web_e2e.outcome }} |
+          | Production validation | ${{ steps.production_validation.outcome }} |
+
+          This creates a modern frontend deployment and automation testing pipeline.
+          REPORT
+          cat e2e-report/summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload E2E report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-e2e-report
+          path: e2e-report/summary.md

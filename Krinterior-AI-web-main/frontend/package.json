@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://edaparevanth.github.io/Krinterior-AI/web",
   "dependencies": {
     "@hookform/resolvers": "5.0.1",
     "@radix-ui/react-accordion": "1.2.8",
@@ -63,7 +64,11 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --dest web --add --repo https://github.com/edaparevanth/Krinterior-AI.git",
+    "login": "mocha \"selenium-tests/tests/**/*.test.js\" --timeout 60000",
+    "selenium:login": "npm run login"
   },
   "browserslist": {
     "production": [
@@ -83,6 +88,7 @@
     "@emergentbase/visual-edits": "https://assets.emergent.sh/npm/emergentbase-visual-edits-1.0.8.tgz",
     "@eslint/js": "9.23.0",
     "@types/lodash": "4.17.24",
+    "ajv": "^8.20.0",
     "autoprefixer": "10.4.20",
     "dotenv": "16.4.5",
     "eslint": "9.23.0",
@@ -90,8 +96,12 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "7.37.4",
     "eslint-plugin-react-hooks": "5.2.0",
+    "gh-pages": "^6.3.0",
     "globals": "15.15.0",
+    "mocha": "^11.7.5",
     "postcss": "8.4.49",
+    "selenium-webdriver": "^4.39.0",
+    "serve": "^14.2.5",
     "tailwindcss": "3.4.17"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
